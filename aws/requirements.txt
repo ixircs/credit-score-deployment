@@ -1,0 +1,5 @@
+# TIDAK ada dependency tambahan untuk container.
+# Model deployment = RandomForest (native scikit-learn), dilatih dengan
+# scikit-learn 1.4.2 agar SAMA dengan container SageMaker SKLearn 1.4-2.
+# Karena tidak perlu xgboost/upgrade apa pun, container TIDAK meng-install
+# apa-apa saat start -> paling cepat & anti-gagal (health check pasti lolos).

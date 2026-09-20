@@ -1,0 +1,7 @@
+# Dependency Streamlit frontend di EC2 (app_streamlit.py).
+# App HANYA memanggil endpoint via boto3 — TIDAK memuat model — jadi tak perlu
+# sklearn/xgboost di sini (ringan & cepat start).
+streamlit==1.55.0
+boto3
+pandas==3.0.2
+numpy==2.4.4

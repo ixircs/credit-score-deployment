@@ -1,0 +1,9 @@
+# Dependency untuk deployment / inferencing (app.py + inference.py).
+# Versi di-pin agar konsisten dengan environment saat model dilatih (tugas_md),
+# sehingga unpickling model_credit_score.pkl tidak error/warning.
+streamlit==1.55.0
+scikit-learn==1.8.0
+xgboost==3.2.0
+pandas==3.0.2
+numpy==2.4.4
+joblib==1.5.3
